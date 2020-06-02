@@ -7,7 +7,7 @@ Color lightColor = Colors.white;
 Color shadowColor = Colors.black.withOpacity(0.075);
 Color tColor = Colors.grey.shade700;
 
-BoxDecoration nMbox = BoxDecoration(
+BoxDecoration nboxD = BoxDecoration(
   shape: BoxShape.rectangle,
   color: backgroundColor,
   
@@ -25,7 +25,7 @@ BoxDecoration nMbox = BoxDecoration(
 );
 
 
-BoxDecoration nMboxbutton = BoxDecoration(
+BoxDecoration nboxDbutton = BoxDecoration(
   shape: BoxShape.circle,
   color: backgroundColor,
   boxShadow: [
@@ -42,7 +42,7 @@ BoxDecoration nMboxbutton = BoxDecoration(
   ]
 );
 
-BoxDecoration nMboxInvert = BoxDecoration(
+BoxDecoration nboxDInvert = BoxDecoration(
   borderRadius: BorderRadius.circular(15),
   color: shadowColor,
   boxShadow: [

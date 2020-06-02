@@ -121,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       height: 110,
                                       width: 110,
                                       padding: EdgeInsets.all(8),
-                                      decoration: nboxDInvert,
+                                      decoration: boxDInvert,
                                       child: Container(
                                           child: Center(
                                               child: new Image.asset(
@@ -147,7 +147,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   Container(
                                     width: 100,
                                     height: 30,
-                                    decoration: nboxDInvert,
+                                    decoration: boxDInvert,
                                     alignment: Alignment.center,
                                     child: Text(quotes[index]["name"],
                                         style: TextStyle(

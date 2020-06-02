@@ -14,7 +14,7 @@ class _NMButtonState extends State<NMButton> {
     return Container(
         width: 55,
         height: 55,
-        decoration: nboxDbutton,
+        decoration: boxDbutton,
         child: IconButton(
             icon: Icon(
               widget.icon,

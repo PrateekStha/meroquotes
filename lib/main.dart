@@ -37,7 +37,6 @@ class _MyHomePageState extends State<MyHomePage> {
   List quotes = [
     {"name": "Happy", "imageUrl": "assets/happy.png"},
     {"name": "Sad", "imageUrl": "assets/sad.png"},
-    
     {"name": "Angry", "imageUrl": "assets/anger.png"},
     {"name": "Alone", "imageUrl": "assets/alone.png"},
     {"name": "Success", "imageUrl": "assets/success.png"},
